@@ -260,3 +260,56 @@ span{
     margin-top: 4rem;
   }
 }
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Shorter than home to fit content */
+}
+
+.contact-content {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.contact-content h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.contact-content h2 span {
+    color: #b74b4b;
+}
+
+.contact-content p {
+    margin-bottom: 2rem;
+    color: #ccc;
+}
+
+.contact-form .input-box {
+    margin-bottom: 1.5rem;
+}
+
+.contact-form .input-box input,
+.contact-form .input-box textarea {
+    width: 100%;
+    padding: 1rem;
+    background-color: #333; /* Darker input background */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.contact-form .input-box textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+.contact-form .btn {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
